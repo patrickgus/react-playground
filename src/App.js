@@ -1,9 +1,13 @@
 import React from 'react';
+import Split from './composition/Split';
 
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      <Split />
+      <Split />
+      <Split />
+      <Split />
     </main>
   );
 }
