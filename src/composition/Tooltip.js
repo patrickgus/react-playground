@@ -17,4 +17,8 @@ function Tooltip(props) {
   );
 }
 
+class TooltipClass extends React.Component {
+  
+}
+
 export default Tooltip;
