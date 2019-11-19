@@ -37,4 +37,4 @@ class TooltipClass extends React.Component {
   }
 }
 
-export default Tooltip;
+export default TooltipClass;
