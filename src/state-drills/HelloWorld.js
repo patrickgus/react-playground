@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class HelloWorld extends React.Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class HelloWorld extends React.Component {
           React
         </button>
       </div>
-    )
+    );
   }
 }
 
