@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class HelloWorld extends React.Component {
+class HelloWorld extends Component {
   constructor(props) {
     super(props);
     this.state = { who: 'world' }
