@@ -1,6 +1,9 @@
 import React from 'react';
 
 class Counter extends React.Component {
+  static defaultProps = {
+    step: 1
+  }
   constructor(props) {
     console.log('props in constructor', props);
     super(props);
