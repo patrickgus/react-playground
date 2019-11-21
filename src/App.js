@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 // import Counter from './state/Counter';
-import HelloWorld from './state-drills/HelloWorld';
+// import HelloWorld from './state-drills/HelloWorld';
+import Bomb from './state-drills/Bomb';
 
 class App extends Component {
   // static defaultProps = {
@@ -11,7 +12,8 @@ class App extends Component {
     return (
       <div className="App">
         {/* <Counter count={123} step/> */}
-        <HelloWorld />
+        {/* <HelloWorld /> */}
+        <Bomb />
       </div>
     );
   }
