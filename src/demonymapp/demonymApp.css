@@ -1,0 +1,11 @@
+.demonym_app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.demonym_app__placeholder {
+  font-size: 18px;
+  color: red;
+}
