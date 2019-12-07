@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import languageSpecificCopy from "./languageSpecificCopy";
-import LanguageContext from "./LanguageContex";
+import LanguageContext from "./LanguageContext";
 
 class GreatGrandChild extends Component {
   static contextType = LanguageContext;
