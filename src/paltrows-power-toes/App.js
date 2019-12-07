@@ -1,14 +1,15 @@
-import React, { Component } from 'react'
-import Nav from './Nav'
-import Header from './Header'
-import Footer from './Footer'
-import HomePage from './HomePage'
-import './App.css'
+import React, { Component } from "react";
+import Nav from "./Nav";
+import Header from "./Header";
+import Footer from "./Footer";
+import HomePage from "./HomePage";
+import AboutPage from "./AboutPage";
+import "./App.css";
 
 export default class App extends Component {
   render() {
     return (
-      <div className='App'>
+      <div className="App">
         <nav>
           <Nav />
         </nav>
@@ -22,6 +23,6 @@ export default class App extends Component {
           <Footer />
         </footer>
       </div>
-    )
+    );
   }
 }
