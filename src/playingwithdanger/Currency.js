@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Currency() {
-  const money = new Intl.NumberFormat(this.props.locale, {
+export default function Currency(props) {
+  const money = new Intl.NumberFormat(props.locale, {
     style: "currency",
-    currency: this.props.currency
-  }).format(this.props.value);
+    currency: props.currency
+  }).format(props.value);
 
   return <div className="currency">{money}</div>;
 }
